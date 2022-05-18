@@ -1,0 +1,51 @@
+*{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    /* border: 0.1px solid orange; */
+}
+body {
+    font-family: Roboto;
+}
+a {
+    color: #000000;
+}
+table.shoppingCart{
+    background-color: rgb(221, 221, 221);
+    width: 70%;
+}
+table.shoppingCart thead, tfoot {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    /* font-weight: bold; */
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(158, 158, 158);
+}
+td, th {
+    padding: 0.4rem;
+}
+tbody tr td:nth-child(3){
+    text-align: center;
+}
+
+tfoot,
+tbody tr td:nth-child(4),
+tbody tr td:nth-child(5){
+    text-align: right;
+}
+.sc-buttons{
+    /* background-color: tomato; */
+    width: 70%;
+    text-align: right;
+}
+.sc-buttons button{
+    background-color: tomato;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border: 0;
+}
+.sc-buttons button i{
+    color: rgb(59, 59, 59);
+}

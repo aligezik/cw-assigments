@@ -1,0 +1,15 @@
+*{
+    font-family: Roboto;
+}
+
+nav.acilir-menu{
+    width: 7rem;
+}
+
+nav.acilir-menu ul{
+    display: none;
+}
+
+nav.acilir-menu:hover ul{
+    display: block;
+}
