@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* word-spacing: ; */
+}
+body{
+    height: 100vh;
+    font-size: 1.2rem;
+}
+header{
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+nav{
+    color: black;
+    text-align: center;
+    background-color: blue;
+    padding: 0.2rem;
+
+}
+aside{
+    background-color: yellow;
+    padding: 1rem;
+    width: 20%;
+    height: calc(100vh - 200px);
+    position: absolute;
+    float: left;
+}
+main{
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+    width: 80%;
+    height: calc(100vh - 200px);
+    float: right;
+}
+footer{
+    position: absolute;
+    background-color: grey;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+    color: white;
+    /* height: 78%; */
+    bottom: 0;
+}
