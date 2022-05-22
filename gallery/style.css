@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #F0F8FF;
+    font-family: Roboto;
+}
+body {
+    background-image: url(./img/tree.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    padding: 1rem;
+}
+header{
+    /* margin: 1rem; */
+}
+h1{
+    font-size: 3rem;
+}
+p {
+    font-size:1.5rem;
+}
+
+span{
+    display: inline-block;
+    background-color: grey;
+    width: 5rem;
+    height: 0.5rem;
+    margin-right: 0.7rem;
+}
+.butonlar{
+    position: fixed;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+}
+.active{
+    background-color: tomato;
+}
