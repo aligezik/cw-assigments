@@ -1,0 +1,65 @@
+/* @import "color-theme.css" */
+*{
+    padding: 0;
+    margin: 0;
+    /* border: 0.1px solid red; */
+}
+body {    
+    box-sizing: border-box;
+    font-family: var(--ff-monteserrat);
+    font-weight: 600
+}
+nav{
+    display: flex;
+    margin-top: 0.5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.right, .left, .middle {
+    width: 33%;
+}
+.left{
+    background-color: var(--gri-8);
+    box-shadow: var(--açık-gölge);
+}
+.left  img {
+    width: 40px;
+    height: 40px;
+}
+
+.middle {
+    background-color: var(--mavi-10);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: var(--koyu-gölge);
+}
+
+.middle .item{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem;
+    color: var(--siyah);
+    transition: background-color 1s, color 1s;
+    /* justify-content: space-between; */
+}
+.middle .item:hover{
+    background-color: var(--mavi-5);
+    color: var(--beyaz);
+    border-radius: 10px;
+}
+
+.right{
+    background-color: var(--mavi-7);
+    text-align: right;
+    box-shadow: var(--açık-gölge);
+}
+.right a i{
+    color: var(--siyah);
+    font-size: 40px;
+    transition: font-size 1s; 
+}
+.right a i:hover{
+    font-size: 60px;
+}
