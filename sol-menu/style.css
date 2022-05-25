@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 0.01px solid red; */
+    color: white;
+    font-family: Roboto;
+}
+.sol-menu{
+    font-size: 1.1rem;
+    width: 20%;
+    background-color: #FFB338;
+    position: absolute;
+    height: 100vh;
+    left: -17vw;
+    top: 0;
+    transition: left 1s, top 1s;
+}
+nav:hover{
+    left: 0;
+}
+.sol-menu .menu i{
+    position: absolute;
+    right: 0.5rem;
+    transition: transform 1s;
+
+}
+.sol-menu:hover i{
+    /* transform: rotate(180deg); */
+}
+.menu{
+    background-color: #b87100;
+    padding: 0.3rem;
+    position: relative;
+}
+ul{
+    background-color: #FFB338;
+    padding: 0.5rem;
+}
+li{
+    padding: 11px;
+    cursor: pointer;
+}
+li a{
+    text-decoration: none;
+}
