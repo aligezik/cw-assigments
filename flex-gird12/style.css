@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+body {
+    height: 100vh;
+}
+.logo, .menu {
+    padding: 1rem;
+}
+.bol1, .bol2, .bol3{
+ height: calc(100vh - 330px);
+ border: 1px solid  #808080
+ }
+.bol4, .bol5, .bol6{
+    padding: 1rem;
+    border: 1px solid  #808080
+}
+.logo{
+    background-color: #7FFFD4;
+}
+.menu{
+    background-color: #87CEFA;
+}
+.banner{
+    background-color:  #FF0000;
+    padding: 4rem;
+}
+.sec1{
+    background-color: #ADFF2F;
+}
+.sec2{
+    background-color: #FF6347;
+}
+footer{
+    background-color: #EE82EE;
+    padding: 2rem;
+}
+
+.container {
+width: 100%;
+}
+nav, section{
+display: flex;
+flex-wrap: wrap;
+}
+
+
+.col-1 {
+width: 8.333333%;
+}
+
+.col-2 {
+width: 16.666667%;
+}
+
+.col-3 {
+width: 25%;
+}
+
+.col-4 {
+width: 33.333333%;
+}
+
+.col-5 {
+width: 41.666667%;
+}
+
+.col-6 {
+width: 50%;
+}
+
+.col-7 {
+width: 58.333333%;
+}
+
+.col-8 {
+width: 66.666667%;
+}
+
+.col-9 {
+width: 75%;
+}
+
+.col-10 {
+width: 83.333333%;
+}
+
+.col-11 {
+width: 91.666667%;
+}
+
+.col-12 {
+width: 100%;
+}
